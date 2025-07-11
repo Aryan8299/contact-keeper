@@ -1,0 +1,8 @@
+db.contacts.find().pretty()
+use contactkeeper
+show dbs
+db.contacts.insertOne({name: "Test",email: "test@example.com" })
+use contactkeeper
+db.contains.find().pretty()
+use contactkeeper
+show dbs
